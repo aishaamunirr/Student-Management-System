@@ -1,0 +1,115 @@
+body{
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    background: linear-gradient(135deg, #a7b5ca 0%, #395788 100%);
+    color: #062e59;
+}
+.container{
+    border: 2px solid rgba(32, 36, 103, 0.6);
+    text-align: center;
+    width: 100%;
+    max-width: 680px;
+    margin: 100px auto 20px;
+    padding: 30px 20px 70px;
+    /* background-color: white; */
+    background-color: #f2f6fc;
+    border-radius: 20px;
+}
+.h2{
+    text-align: left;
+    padding-left: 20px;
+    
+}
+
+.add-new{
+    border-radius: 4px;
+    background-color:#dfe4ee;
+    padding: 10px;
+    margin: 10px;
+    text-align: left;
+}
+input{
+    height: 30px;
+    background-color: #f2f6fc;
+    border: 1px solid rgb(175, 175, 196);
+    border-radius: 4px;
+}
+input:hover{
+    transform: scale(1.05);
+}
+.add-new button{
+    margin-left: 10px;
+    background-color:  #007bff;
+    color: white;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid blue;
+}
+.add-new button:hover{
+    transform: scale(1.1);
+    background-color: #0056b3;
+}
+#studentList{
+    text-align: left;
+    padding: 0px 20px;
+
+}
+.card {
+background-color:#dfe4ee;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  border: 1px solid #ddd;
+  /* background: #f9f9f9; */
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 6px;
+}
+.card:hover{
+    transform: scale(1.02);
+}
+.card button {
+  margin-left: 5px; 
+  height: 40px;
+  font-size: 15px;
+  width: 60px;
+  border-radius: 6px;
+}
+.edit{
+    background-color: #28a745; 
+    color: white;
+    border: 1px solid green;
+}
+.edit:hover{
+    transform: scaleX(1.1);
+    background-color: #218838;
+}
+.delete{
+    background-color:#dc3545;
+    color: white;
+    border: 1px solid red;
+}
+.delete:hover{
+    transform: scaleX(1.1);
+    background-color: #c82333;
+}
+.clearButton{
+    height: 40px;
+    border-radius: 6px;
+    font-size: 20px;
+    border: none;
+    background-color:  #007bff;
+    color: white;
+    margin-top: 20px;
+}
+.clearButton:hover{
+    background-color: #c82333;
+    transform: scale(1.15);
+}
+#activityLog{
+    padding: 20px;
+    font-size: 25px;
+    color: rgba(31, 31, 94, 0.5);
+}
