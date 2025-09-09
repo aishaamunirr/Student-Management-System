@@ -2,7 +2,6 @@ body{
     box-sizing: border-box;
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
     background: linear-gradient(135deg, #a7b5ca 0%, #395788 100%);
     color: #062e59;
 }
@@ -13,7 +12,6 @@ body{
     max-width: 680px;
     margin: 100px auto 20px;
     padding: 30px 20px 70px;
-    /* background-color: white; */
     background-color: #f2f6fc;
     border-radius: 20px;
 }
@@ -62,7 +60,6 @@ background-color:#dfe4ee;
   justify-content: space-between; 
   align-items: center;
   border: 1px solid #ddd;
-  /* background: #f9f9f9; */
   padding: 10px;
   margin: 8px 0;
   border-radius: 6px;

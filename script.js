@@ -111,10 +111,10 @@ function clearForm() {
 function saveData() {
     localStorage.setItem("records", studentList.innerHTML);
 }
-function showTask() {
+function showData() {
     studentList.innerHTML = localStorage.getItem("records");
 }
-showTask();
+showData();
 updateActivityLog();
 
 function updateActivityLog(){
